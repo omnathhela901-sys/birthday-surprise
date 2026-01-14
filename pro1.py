@@ -4,6 +4,14 @@ import streamlit as st
 import base64
 import os
 
+# 🔒 Hide Streamlit default UI
+st.markdown("""
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+""", unsafe_allow_html=True)
 #-----------------PAGE ICON------------------
 st.set_page_config(page_title="Birthday surprise",page_icon="🎉",layout="wide")
 # ---- HIDE SIDEBAR & STREAMLIT NAVIGATION ----
