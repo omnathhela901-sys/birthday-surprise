@@ -10,6 +10,8 @@ st.markdown("""
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
+[data-test="stToolbar"]{display:none;}
+[data-test="stDecoration"]{display:none;}
 </style>
 """, unsafe_allow_html=True)
 #-----------------PAGE ICON------------------
